@@ -1,6 +1,6 @@
 import ContactStyles from './Contact.module.css'
 
-export default function Contact({ contact, onDelete }) {
+export default function Contact({contact, onDelete}) {
     return (
         <>
                 <li className={ContactStyles.box}>
